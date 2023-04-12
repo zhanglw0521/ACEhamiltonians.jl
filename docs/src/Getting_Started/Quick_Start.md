@@ -64,10 +64,10 @@ You can use the `cell_translations` method to estimate them based on the distanc
 
 
 ## SubModels
-Instead of constructing, fitting and preficting with the `Model` structure, whose input and output are both whole Hamiltonian, the `SubModel` structure gives the users 
+Instead of constructing, fitting and predicting with the `Model` structure, whose input and output are both whole Hamiltonian, the `SubModel` structure gives the users 
 more flexibility in terms of subblock fitting. 
 It is nevertheless another key component of the `ACEHamiltonians` framework, representing the interaction between atomic shells in a system.
-To use this structure, one start with constructibg on-site or off-site ACE basis and specifying a unique identifier (`id`) for the specific interaction.
+To use this structure, one start with constructing on-site or off-site ACE basis and specifying a unique identifier (`id`) for the specific interaction.
 Once fitted(with the help of data), the `SubModel` structure holds `coefficients` and `mean` values used for making predictions.
 It is a flexible and efficient way to represent interactions in various systems, making it an essential part of the model fitting and prediction process.
 
